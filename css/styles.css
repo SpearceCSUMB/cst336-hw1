@@ -47,6 +47,7 @@ nav a { /* links within "nav" container */
 nav a:hover {  /* pseudo class */
   border-bottom:2px #B71111 solid;
   font-size: 2em;
+  text-shadow: 2px 2px #B71111;
 }
 
 
