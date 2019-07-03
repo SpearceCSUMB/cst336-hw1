@@ -1,0 +1,78 @@
+/* CSS Document */
+/* Layout Styles */
+body {
+  background-color: #11B7B7;
+  color: black;
+}
+main {
+  display: flex;
+  text-align: left;
+  font-size: 15pt;
+  font-family: 'Cinzel', serif;
+}
+header, main, nav {
+  text-align: center;
+}
+header {
+  background-color: #B71111;
+  padding-top: 25px;
+  padding-left: 50px;
+  padding-bottom: 25px;
+  font-size: 18px;
+  font-family: 'Share Tech Mono', monospace;
+}
+footer {
+  text-align: right;
+  background-color: #B71111;
+  color: black;
+  font-size: 10pt;
+  padding-top: 15px;
+  padding-left: 50px;
+  padding-bottom: 15px;
+  font-size: 13px;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+/* Navigation Styles */
+
+nav a { /* links within "nav" container */
+  padding:15px;
+  padding-bottom:4px;
+  font-size: 1.8em;
+  text-decoration: none;  /* removes underline */
+  color: white;           /* by default, links are blue */
+  font-family: 'Share Tech Mono', monospace;
+  text-align: center;
+}
+nav a:hover {  /* pseudo class */
+  border-bottom:2px #B71111 solid;
+  font-size: 2em;
+}
+
+
+/* Border Styles */
+hr {
+  border: 5px solid white;
+  border-radius: 2px;
+}
+
+/* Content Styles */
+aside {
+  justify-content: left;
+  text-align:center;
+}
+div {
+  text-align: center;
+}
+details {
+  color: black;
+}
+summary {
+  outline: 0px;
+  border: 0px;
+}
+details a:hover {
+  border-bottom:2px #B71111 solid;
+  font-size: 16pt;
+  transition: .2s; /* transition effect */
+}
